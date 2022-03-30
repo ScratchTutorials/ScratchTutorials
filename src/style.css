@@ -1,0 +1,143 @@
+@import url("css/variables.css");
+@import url("css/navbar.css");
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+
+/* HEADER */
+#header {
+	background-color: var(--ui-primary);
+	color: #FFFFFF;
+	padding: 36px;
+	margin-top: 60px;
+}
+#header a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* /HEADER */
+
+/* PAGE */
+#content {
+	background-color: var(--ui-bg);
+	color: var(--ui-text);
+	padding: 36px;
+	min-height: 460px;
+}
+#content a {
+	color: var(--ui-text-linked);
+	text-decoration: none;
+}
+/********* ITEMS *********/
+img {
+	border: none;
+	outline: none;
+}
+
+/********* CARROUSEL & TUTOS *********/
+div.carrousel > div.body {
+	display: flex;
+}
+div.carrousel > div.body > div {
+	width: 100%;
+}
+div.carrousel > div.body > div > .tuto-title {
+	font-size: 18px;
+	font-weight: bold;
+}
+div.carrousel > div.body > div > .tuto-author { 
+	font-weight: bold;
+}
+div.tutorials > div.body > div > img {
+	height: 120px;
+	width: 160px;
+	border: solid 1px #DADADAA0;
+	border-radius: 4px;
+	background-color: var(--ui-bg);
+}
+
+div.carrousel > .head {
+	background-color: var(--ui-bg-2);
+	color: var(--ui-text);
+	border-radius: 18px 18px 0 0;
+	padding: 0 18px;
+	height: 36px;
+}
+div.carrousel > .head > * {
+	font-size: 20px;
+	padding-top: 8px;
+}
+div.carrousel > .body {
+	background-color: var(--ui-bg-3);
+	color: var(--ui-text);
+	border-radius: 0 0 4.5px 4.5px;
+	padding: 18px;
+}
+/********* /CARROUSEL *********/
+
+/********* BOX *********/
+div.box > .head {
+	background-color: var(--ui-bg-2);
+	color: var(--ui-text);
+	border-radius: 18px 18px 0 0;
+	padding: 0 18px;
+	height: 36px;
+}
+div.box > .head > * {
+	font-size: 20px;
+	padding-top: 8px;
+}
+div.box > .body {
+	background-color: var(--ui-bg-3);
+	color: var(--ui-text);
+	border-radius: 0 0 4.5px 4.5px;
+	padding: 18px;
+}
+
+div.profiles > div.body > div {
+	background-color: var(--ui-bg-2);
+	color: var(--ui-text);
+	border-radius: 9px;
+	margin: 9px;
+	padding: 9px;
+}
+div.profiles > div.body > div > img {
+	height: 48px;
+	width: 48px;
+	border: solid 1px #DADADAA0;
+	border-radius: 8px;
+	background-color: var(--ui-bg);
+	vertical-align: middle;
+}
+/********* /BOX *********/
+/* /PAGE */
+
+/* FOOTER */
+#footer {
+	background-color: var(--ui-bg-2);
+	color: var(--ui-text);
+	padding: 18px 36px;
+}
+#footer a {
+	color: var(--ui-text-linked);
+	text-decoration: none;
+}
+#footer button.redBtn {
+	height: 32px;
+	width: 160px;
+	border: none;
+	border-radius: 8px;
+	background-color: rgb(255, 107, 132);
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+#footer button.redBtn a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* /FOOTER */
