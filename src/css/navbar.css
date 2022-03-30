@@ -1,0 +1,34 @@
+.navbar {
+	height: auto;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: var(--ui-primary);
+	box-shadow: 0 0 2px 2px var(--ui-shadow);
+}
+.navbar > a {
+	color: #FFFFFF;
+	background-color: var(--ui-primary);
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 20px 10px;
+}
+.navbar > button {
+	height: 52px;
+	width: 104px;
+	margin: 4px 10px;
+	border: none;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+.navbar > button > a {
+	text-decoration: none;
+	color: var(--ui-primary);
+} 
+.navbar img {
+	height: 30px;
+	margin: 15px;
+}
