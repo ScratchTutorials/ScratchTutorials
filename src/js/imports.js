@@ -3,7 +3,7 @@ function reference(link) {
 	referenceLink = link;
 	const headerContent = `
 	<img src="${link}hoc.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
-	<a style="float:left;" href="${link}tutorials/new.html">Create</a>
+	<a style="float:left;" href="${link}tutorials/propose.html">Propose Tutorial</a>
 	<a style="float:left;" href="${link}tutorials/index.html">Tutorials</a>
 	<a style="float:left;" href="${link}about.html">About</a>
 	<button style="float:right;">
@@ -19,7 +19,7 @@ function reference(link) {
 			<a href="${link}about.html">About us</a><br>
 			<a href="${link}credits.html">Credits</a><br>
 			<a href="${link}privacy.html">Privacy</a><br>
-			<a href="${link}stats.html">Statistics</a>
+			<a href="${link}statistics.html">Statistics</a>
 		</div>
 		<div style="width:100%;">
 			<h4>Contact Us</h4><br>
