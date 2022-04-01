@@ -5,7 +5,7 @@ html {
 	--ui-text-primary: #FFFFFF;
 	--ui-text-secondary: #FFFFFF;
 	--ui-text: #555E77;
-	--ui-text-linked: var(--ui-primary);
+	--ui-text-linked: #4F96FE;
 	--ui-bg: #FAFAFA;
 	--ui-bg-2: #EAEAEA;
 	--ui-bg-3: #F4F4F4;
@@ -17,7 +17,7 @@ html.darkMode {
 	--ui-text-primary: #FFFFFF;
 	--ui-text-secondary: #FFFFFF;
 	--ui-text: #FFFFFF;
-	--ui-text-linked: var(--ui-primary);
+	--ui-text-linked: #4F96FE;
 	--ui-bg: #000000;
 	--ui-bg-2: #3F3F3F;
 	--ui-bg-3: #353535;
