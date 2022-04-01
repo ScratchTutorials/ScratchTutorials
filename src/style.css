@@ -14,6 +14,10 @@
 	color: #FFFFFF;
 	padding: 36px;
 	margin-top: 60px;
+	transition-duration: 0.4s;
+}
+#header * {
+	transition-duration: 0.4s;
 }
 #header a {
 	color: #FFFFFF;
@@ -27,16 +31,30 @@
 	color: var(--ui-text);
 	padding: 36px;
 	min-height: 460px;
+	transition-duration: 0.4s;
 }
-#content a {
-	color: var(--ui-text-linked);
-	text-decoration: none;
+#content * {
+	transition-duration: 0.1s;
 }
 /********* ITEMS *********/
 img {
 	border: none;
 	outline: none;
 }
+
+#content a {
+	color: var(--ui-text-linked);
+	text-decoration: none;
+}
+
+#content a.filled {
+	color: white;
+	background-color: var(--ui-primary);
+	padding: 8px 16px;
+	border-radius: 8px;
+}
+
+/********* /ITEMS *********/
 
 /********* CARROUSEL & TUTOS *********/
 div.carrousel > div.body {
@@ -121,6 +139,7 @@ div.profiles > div.body > div > img {
 	background-color: var(--ui-bg-2);
 	color: var(--ui-text);
 	padding: 18px 36px;
+	transition-duration: 0.4s;
 }
 #footer a {
 	color: var(--ui-text-linked);
@@ -141,3 +160,5 @@ div.profiles > div.body > div > img {
 	text-decoration: none;
 }
 /* /FOOTER */
+
+
