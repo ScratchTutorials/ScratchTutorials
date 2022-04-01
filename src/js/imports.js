@@ -3,10 +3,10 @@ function reference(link) {
 	referenceLink = link;
 	const headerContent = `
 	<img src="${link}hoc.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
-	<a style="float:left;" href="${link}tutorials/propose.html">Propose Tutorial</a>
+	<a style="float:left;" class="px-120 px-60"  href="${link}tutorials/propose.html">Propose Tutorial</a>
 	<a style="float:left;" href="${link}tutorials/index.html">Tutorials</a>
 	<a style="float:left;" href="${link}about.html">About</a>
-	<button style="float:right;">
+	<button class="px-120" style="float:right;">
 		<a href="https://github.com/happexx/ScratchTutorials/issues/new">Feedback</a>
 	</button>
 	<img onClick="changeTheme()" style="float:right;" src="${link}assets/theme.svg">`
