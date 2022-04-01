@@ -5,6 +5,7 @@
 	top: 0;
 	background-color: var(--ui-primary);
 	box-shadow: 0 0 2px 2px var(--ui-shadow);
+	transition-duration: 0.4s;
 }
 .navbar > a {
 	color: #FFFFFF;
@@ -13,6 +14,7 @@
 	font-size: 16px;
 	font-weight: bold;
 	padding: 20px 10px;
+	transition-duration: 0.4s;
 }
 .navbar > button {
 	height: 52px;
@@ -27,6 +29,7 @@
 .navbar > button > a {
 	text-decoration: none;
 	color: var(--ui-primary);
+	transition-duration: 0.4s;
 } 
 .navbar img {
 	height: 30px;
