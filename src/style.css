@@ -53,6 +53,11 @@ img {
 	padding: 8px 16px;
 	border-radius: 8px;
 }
+.tutorial-iframe {
+	width: 960px;
+	height: 720px;
+	border-radius: 8px;
+}
 
 /********* /ITEMS *********/
 
