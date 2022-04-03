@@ -14,12 +14,16 @@
 			<h1>404 - Not Found</h1>
 		</header>
 		<div id="content">
-			<p>Couldn’t find <a id=""></a> in Scratch Tutorials.<br>
+			<p>Couldn’t find <a id="wrongUrl"></a> in Scratch Tutorials.<br>
 			If you believe it’s an error, create a new issue by clicking on the link above, or contact <a href="https://scratch.mit.edu/users/happes#comments">happex</a> on Scratch.</p>
 		</div>
 		<footer id="footer">
 		</footer>	
-		<script src="script.js"></script>
+		<script src="script.js">
+			var wrongUrl = window.location.pathname;
+			document.getElementById("wrongUrl").href = "https://github.com/nao-l/ScratchTutorials/issues/new?permalink=https%3A%2F%2Fgithub.com%2Fnao-l%2FScratchTutorials%2Fblob%2Fc50a7ae7b9fac39407069798829ef3683efc7cb3%2f${wrongUrl}";
+			document.getElementById("wrongUrl").innerText = wrongUrl;
+		</script>
 		<script src="js/theme.js" onLoad='setTheme(theme)'></script>
 		<script src="js/imports.js" onload='reference("")'></script>
 	</body>
