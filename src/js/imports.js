@@ -4,8 +4,10 @@ function reference(link) {
 	const headerContent = `
 	<img class="px-120 px-80 px-60" src="${link}hoc.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
 	<a class="px-120" style="float:left;" class="px-120 px-60"  href="${link}tutorials/propose.html">Propose Tutorial</a>
-	<a style="float:left;" href="${link}tutorials/index.html">Tutorials</a>
-	<a class="px-120 px-80" style="float:left;" href="${link}about.html">About</a>
+	<img src="${link}assets/tutorials-add.svg" onClick="window.location.href='${link}tutorials/propose.html'">
+	<a class="px-120 px-80" style="float:left;" href="${link}tutorials/index.html">Tutorials</a>
+	<img src="${link}assets/tutorials.svg" onClick="window.location.href='${link}tutorials'">
+	<a class="px-120" style="float:left;" href="${link}about.html">About</a>
 	<button class="px-120" style="float:right;">
 		<a href="https://github.com/happexx/ScratchTutorials/issues/new">Feedback</a>
 	</button>
