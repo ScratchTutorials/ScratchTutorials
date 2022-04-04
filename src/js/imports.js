@@ -2,14 +2,14 @@ var referenceLink = "";
 function reference(link) {
 	referenceLink = link;
 	const headerContent = `
-	<img src="${link}hoc.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
-	<a style="float:left;" class="px-120 px-60"  href="${link}tutorials/propose.html">Propose Tutorial</a>
+	<img class="px-120 px-80 px-60" src="${link}hoc.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
+	<a class="px-120" style="float:left;" class="px-120 px-60"  href="${link}tutorials/propose.html">Propose Tutorial</a>
 	<a style="float:left;" href="${link}tutorials/index.html">Tutorials</a>
-	<a style="float:left;" href="${link}about.html">About</a>
+	<a class="px-120 px-80" style="float:left;" href="${link}about.html">About</a>
 	<button class="px-120" style="float:right;">
 		<a href="https://github.com/happexx/ScratchTutorials/issues/new">Feedback</a>
 	</button>
-	<img onClick="changeTheme()" style="float:right;" src="${link}assets/theme.svg">`
+	<img class="px-120 px-80" onClick="changeTheme()" style="float:right;" src="${link}assets/theme.svg">`
 	document.getElementById("nav").innerHTML = headerContent;
 
 	const footerContent = `
@@ -26,7 +26,7 @@ function reference(link) {
 			<a href="https://scratch.mit.edu/users/happex/#comments">On Scratch</a><br>
 			<a href="https://github.com/happexx/happexx/discussions">On Github</a>
 		</div>
-		<div style="width:100%;">
+		<div class="px-120 px-80" style="width:100%;">
 			<h4>Community</h4><br>
 			<a href="https://scratch.mit.edu/discuss">Scratch Discuss</a><br>
 			<a href="https://wiki-scratch.info">Scratch Wiki</a><br>
