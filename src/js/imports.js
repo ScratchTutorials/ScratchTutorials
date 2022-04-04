@@ -19,7 +19,7 @@ function reference(link) {
 			<a href="${link}about.html">About us</a><br>
 			<a href="${link}credits.html">Credits</a><br>
 			<a href="${link}privacy.html">Privacy</a><br>
-			<a href="${link}statistics.html">Statistics</a>
+			<a href="${link}statistics.html">Statistics</a><br>
 			<a href="${link}contribute.html">Contribute</a>
 		</div>
 		<div style="width:100%;">
