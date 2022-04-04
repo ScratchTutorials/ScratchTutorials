@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Scratch Tutorials ~ New Tutorial</title>
+		<title>Scratch Tutorials - New Tutorial</title>
 		<link rel="favicon" href="../favicon.svg" type="img/svg">
 		<meta name="theme-color" content="var(--ui-primary)">
 		<meta charset="UTF-8">
@@ -57,18 +57,20 @@
 					<textarea name="description" id="description" required></textarea><br><br><br>
 					<label for="credits">Please tell if some people helped you (separate with coma's)</label><br><br>
 					<input type="text" name="credits" id="credirs"></input><br><br><br>
-					<input type="submit" onClick="copyForm;" value="Done"></input>
+					<input type="submit" onClick="copyForm();" value="Done"></input>
 				</div>
 			</div>
 		</div>
 		<footer id="footer">
 		</footer>	
 		<script src="../script.js">
-			navigator.clipboard.writeText(
-				document.getElementById("title") +
-				document.getElementById("description") +
-				document.getElementById("credits")
-			);
+			function copyForm() {
+				navigator.clipboard.writeText(
+					document.getElementById("title") +
+					document.getElementById("description") +
+					document.getElementById("credits")
+				);
+			}
 		</script>
 		<script src="../js/theme.js" onLoad='setTheme(theme)'></script>
 		<script src="../js/imports.js" onload='reference("../")'></script>
