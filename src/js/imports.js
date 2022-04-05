@@ -9,7 +9,7 @@ function reference(link) {
 	<img src="${link}assets/tutorials.svg" onClick="window.location.href='${link}tutorials'">
 	<a class="px-120" style="float:left;" href="${link}about.html">About</a>
 	<button class="px-120" style="float:right;">
-		<a href="https://github.com/happexx/ScratchTutorials/issues/new">Feedback</a>
+		<a href="https://github.com/nao-l/ScratchTutorials/issues/new">Feedback</a>
 	</button>
 	<img class="px-120 px-80" onClick="changeTheme()" style="float:right;" src="${link}assets/theme.svg">`
 	document.getElementById("nav").innerHTML = headerContent;
@@ -27,7 +27,7 @@ function reference(link) {
 		<div style="width:100%;">
 			<h4>Contact Us</h4><br>
 			<a href="https://scratch.mit.edu/users/happex/#comments">On Scratch</a><br>
-			<a href="https://github.com/happexx/happexx/discussions">On Github</a>
+			<a href="https://github.com/nao-l/scratchtutorials/discussions">On Github</a>
 		</div>
 		<div class="px-120 px-80" style="width:100%;">
 			<h4>Community</h4><br>
