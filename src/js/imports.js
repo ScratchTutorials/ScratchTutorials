@@ -36,7 +36,7 @@ function reference(link) {
 			<a href="https://scratch.mit.edu/studios/x/comments">Community Portal</a>
 		</div>
 		<div style="width:100%;">
-			<button class="redBtn screen-120"><a href="https://github.com/happex/scratchtutorials/issues/new">Report an Error</a></button><br>
+			<button class="redBtn screen-120"><a href="https://github.com/nao-l/scratchtutorials/issues/new">Report an Error</a></button><br>
 			<div id="wcb" class="carbonbadge"></div>
 			<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 		</div>
