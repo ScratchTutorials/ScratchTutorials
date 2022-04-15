@@ -41,7 +41,7 @@ function changeTheme() {
 	}
 }
 
-function setTheme(theme) {
+function setTheme(theme: string) {
 	localStorage.setItem("st-Theme", theme)
 	if (themeButton !== null) {
 		themeButton.innerHTML = `Change Theme (${theme})`;
