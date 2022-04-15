@@ -1,5 +1,5 @@
 var referenceLink = "";
-function reference(link) {
+function reference(link: string) {
 	referenceLink = link;
 	const headerContent = `
 	<img class="px-120 px-80 px-60" src="${link}hoc.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
