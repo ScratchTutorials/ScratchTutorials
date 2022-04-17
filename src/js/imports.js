@@ -2,14 +2,14 @@ var referenceLink = "";
 function reference(link) {
 	referenceLink = link;
 	const headerContent = `
-	<img class="px-120 px-80 px-60" src="${link}hoc.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
+	<img class="px-120 px-80 px-60" src="${link}favicon.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
 	<a class="px-120" style="float:left;" class="px-120 px-60"  href="${link}tutorials/propose.html">Propose Tutorial</a>
 	<!--img src="${link}assets/tutorials-add.svg" onClick="window.location.href='${link}tutorials/propose.html'"-->
 	<a class="px-120 px-80" style="float:left;" href="${link}tutorials/index.html">Tutorials</a>
 	<!--img src="${link}assets/tutorials.svg" onClick="window.location.href='${link}tutorials'"-->
 	<a class="px-120" style="float:left;" href="${link}about.html">About</a>
 	<button class="px-120" style="float:right;">
-		<a href="https://github.com/nao-l/ScratchTutorials/issues/new">Feedback</a>
+		<a href="https://github.com/ScratchTutorials/ScratchTutorials/issues/new">Feedback</a>
 	</button>
 	<img class="px-120 px-80" onClick="changeTheme()" style="float:right;" src="${link}assets/theme.svg">`
 	document.getElementById("nav").innerHTML = headerContent;
@@ -27,7 +27,7 @@ function reference(link) {
 		<div style="width:100%;">
 			<h4>Contact Us</h4><br>
 			<a href="https://scratch.mit.edu/users/happex/#comments">On Scratch</a><br>
-			<a href="https://github.com/nao-l/scratchtutorials/discussions">On Github</a>
+			<a href="https://github.com/ScratchTutorials/ScratchTutorials/discussions">On Github</a>
 		</div>
 		<div class="px-120 px-80" style="width:100%;">
 			<h4>Community</h4><br>
@@ -36,7 +36,7 @@ function reference(link) {
 			<a href="https://scratch.mit.edu/studios/x/comments">Community Portal</a>
 		</div>
 		<div style="width:100%;">
-			<button class="redBtn screen-120"><a href="https://github.com/nao-l/scratchtutorials/issues/new">Report an Error</a></button><br>
+			<button class="redBtn screen-120"><a href="https://github.com/ScratchTutorials/ScratchTutorials/issues/new">Report an Error</a></button><br>
 			<div id="wcb" class="carbonbadge"></div>
 			<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 		</div>
