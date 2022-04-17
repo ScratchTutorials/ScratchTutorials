@@ -50,15 +50,14 @@
 					<h3>Submit New Tutorial</h3>
 				</div>
 				<div class="body">
-					<p>If you want to submit a new tutorial, first fill in the following form, then click on Done and go <!-- FORUM LINK --> here.</p><br>
-					<b style="color:red">The copy button is not working yet, please don’t fill the form, directly go to the forum!</b><br><br><br>
+					<p>If you want to submit a new tutorial, first fill in the following form, then click on Done and go <!-- FORUM LINK --> here.</p><br><br><br>
 					<label for="title">Choose a title for the tutorial</label><br><br>
 					<input type="text" name="title" id="title" required></input><br><br><br>
 					<label for="description">Describe your new idea</label><br><br>
 					<textarea name="description" id="description" required></textarea><br><br><br>
 					<label for="credits">Please tell if some people helped you (separate with coma's)</label><br><br>
-					<input type="text" name="credits" id="credirs"></input><br><br><br>
-					<!--input type="submit" onClick="copyForm();" value="Done"></input-->
+					<input type="text" name="credits" id="credits"></input><br><br><br>
+					<input type="submit" onClick="copyForm();" value="Done"></input>
 				</div>
 			</div>
 		</div>
@@ -66,11 +65,17 @@
 		</footer>	
 		<script src="../script.js">
 			function copyForm() {
-				navigator.clipboard.writeText(
-					document.getElementById("title") +
-					document.getElementById("description") +
-					document.getElementById("credits")
-				);
+				var copyTitle = document.getElementById("title");
+				var copyDesc = document.getElementById("description");
+				var copyCredits = document.getElementById("credits");
+				
+				var copyText = copyTitle + copyDesc + copyCredits;
+				copyText.select(); 
+				copyText.setSelectionRange(0, 99999); 
+				
+				navigator.clipboard.writeText(copyText.value);
+				
+				alert("Copied the text: " + copyText.value);
 			}
 		</script>
 		<script src="../js/theme.js" onLoad='setTheme(theme)'></script>
