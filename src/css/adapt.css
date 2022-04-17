@@ -21,6 +21,9 @@
 	.screen-80 {
 		display: block;
 	}
+	div.carrousel > div.body {
+		display: block;
+	}
 	
 	@media only screen and (max-width: 600px) {
 		
