@@ -1,2 +1,1 @@
-ErrorDocument 403 "/src/errors/403.html"
 ErrorDocument 404 "/src/errors/404.html"
