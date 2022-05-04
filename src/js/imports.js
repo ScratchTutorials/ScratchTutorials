@@ -26,7 +26,7 @@ function reference(link) {
 		</div>
 		<div style="width:100%;">
 			<h4>Contact Us</h4><br>
-			<a href="mailto:neoxwalker@users.noreply.github.com
+			<a href="mailto:neoxwalker@users.noreply.github.com">By Email</a><br>
 			<a href="https://scratch.mit.edu/discuss/topic/601563/">On Scratch</a><br>
 			<a href="https://github.com/ScratchTutorials/ScratchTutorials/discussions">On Github</a>
 		</div>
