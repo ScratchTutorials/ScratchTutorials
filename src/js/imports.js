@@ -26,14 +26,15 @@ function reference(link) {
 		</div>
 		<div style="width:100%;">
 			<h4>Contact Us</h4><br>
-			<a href="https://scratch.mit.edu/users/happex/#comments">On Scratch</a><br>
+			<a href="mailto:neoxwalker@users.noreply.github.com
+			<a href="https://scratch.mit.edu/discuss/topic/601563/">On Scratch</a><br>
 			<a href="https://github.com/ScratchTutorials/ScratchTutorials/discussions">On Github</a>
 		</div>
 		<div class="px-120 px-80" style="width:100%;">
 			<h4>Community</h4><br>
 			<a href="https://scratch.mit.edu/discuss">Scratch Discuss</a><br>
-			<a href="https://wiki-scratch.info">Scratch Wiki</a><br>
-			<a href="https://scratch.mit.edu/studios/x/comments">Community Portal</a>
+			<a href="https://wiki-scratch.info">Scratch Wiki</a><!--br>
+			<a href="https://scratch.mit.edu/studios/x/comments">Community Portal</a-->
 		</div>
 		<div style="width:100%;">
 			<button class="redBtn screen-120"><a href="https://github.com/ScratchTutorials/ScratchTutorials/issues/new">Report an Error</a></button><br>
