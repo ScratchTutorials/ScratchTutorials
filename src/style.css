@@ -137,6 +137,12 @@ div.profiles > div.body > div > img {
 	vertical-align: middle;
 }
 /********* /BOX *********/
+/********* TYPOGRAPHY *********/
+.warning {
+	color: #f39c12; 
+	font-weight: bold;
+}
+/********* /TYPOGRAPHY *********/
 /* /PAGE */
 
 /* FOOTER */
