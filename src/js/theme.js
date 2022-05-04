@@ -1,5 +1,3 @@
-<link rel="favicon" type="img/png" href="https://tuto-scratch.pages.dev/favicon.png">
-
 var theme = localStorage.getItem("st-Theme");
 var themeButton = document.getElementById("changeTheme");
 
