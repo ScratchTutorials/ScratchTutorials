@@ -142,6 +142,13 @@ div.profiles > div.body > div > img {
 	color: #f39c12; 
 	font-weight: bold;
 }
+.type-info {
+	color: inherit;
+	/* background-color */
+	border-left: solid 8px var(--ui-primary);
+	padding: 9px;
+	margin: 9px 0;
+}
 /********* /TYPOGRAPHY *********/
 /* /PAGE */
 
