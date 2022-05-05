@@ -35,7 +35,8 @@ function reference(link) {
 			<h4>Community</h4><br>
 			<a href="https://scratch.mit.edu/discuss">Scratch Discuss</a><br>
 			<a href="https://scratch-wiki.info/">Scratch Wiki</a><br>
-			<a href="https://scratch.mit.edu/discuss/">Scratch Forum</a><!--br>
+			<a href="https://scratch.mit.edu/discuss/">Scratch Forum</a><br>
+			<a href="https://scratch.mit.edu/statistics/">Statistics on scratch</a><!--br>
 			<a href="https://scratch.mit.edu/studios/x/comments">Community Portal</a-->
 		</div>
 		
@@ -43,6 +44,7 @@ function reference(link) {
 			<h4>Resources</h4><br>
 			<a href="https://scratch.mit.edu/download">Download Scratch</a><br>
 			<a href="https://scratch.mit.edu/ideas">Tutorials on Scratch</a>
+			<a href="https://scratchstats.com">Scratchstats</a>
 		</div>
 		
 		<div style="width:100%;">
