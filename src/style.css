@@ -40,6 +40,7 @@
 img {
 	border: none;
 	outline: none;
+	border-radius: 4.5px;
 }
 
 #content a {
@@ -58,8 +59,30 @@ img {
 	height: 540px;
 	border-radius: 8px;
 }
+.icon {
+	height: 1rem;
+}
 
 /********* /ITEMS *********/
+
+/********* TABLES *********/
+table {
+	background-color: var(--ui-bg-2);
+	color: inherit;
+	border-radius: 4.5px;
+	border: none;
+	outline: none;
+}
+table > td::odd {
+	background-color: inherit;
+	color: inherit;
+	padding: 9px;
+}
+table > td::even {
+	background-color: var(--ui-bg-3);
+	color: inherit;
+	padding: 9px;
+}
 
 /********* CARROUSEL & TUTOS *********/
 div.carrousel > div.body {
