@@ -34,8 +34,8 @@ function reference(link) {
 		<div class="px-120 px-80" style="width:100%;">
 			<h4>Community</h4><br>
 			<a href="https://scratch.mit.edu/discuss">Scratch Discuss</a><br>
-			<a href="https://scratch-wiki.info/">Scratch Wiki</a><!--br>
-			<a href="https://scratch.mit.edu/discuss/">Scratch Forum</a><br>
+			<a href="https://scratch-wiki.info/">Scratch Wiki</a><br>
+			<a href="https://scratch.mit.edu/discuss/">Scratch Forum</a><!--br>
 			<a href="https://scratch.mit.edu/studios/x/comments">Community Portal</a-->
 		</div>
 		
