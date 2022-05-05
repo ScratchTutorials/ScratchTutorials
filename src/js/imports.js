@@ -43,7 +43,7 @@ function reference(link) {
 		<div class="px-120 px-80" style="width:100%;">
 			<h4>Resources</h4><br>
 			<a href="https://scratch.mit.edu/download">Download Scratch</a><br>
-			<a href="https://scratch.mit.edu/ideas">Tutorials on Scratch</a>
+			<a href="https://scratch.mit.edu/ideas">Tutorials on Scratch</a><br>
 			<a href="https://scratchstats.com">Scratchstats</a>
 		</div>
 		
