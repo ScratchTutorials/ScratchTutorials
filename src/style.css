@@ -73,13 +73,16 @@ table {
 	border: none;
 	outline: none;
 }
-table > td::odd {
+table > td:odd {
 	background-color: inherit;
 	color: inherit;
-	padding: 9px;
 }
-table > td::even {
+table > td:even {
 	background-color: var(--ui-bg-3);
+	color: inherit;
+}
+tr {
+	background-color: inherit;
 	color: inherit;
 	padding: 9px;
 }
