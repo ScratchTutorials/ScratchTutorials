@@ -22,7 +22,6 @@ function reference(link) {
 			<a href="${link}about.html">About us</a><br>
 			<a href="${link}credits.html">Credits</a><br>
 			<a href="${link}privacy.html">Privacy</a><br>
-			<a href="${link}statistics.html">Statistics</a><br>
 			<a href="${link}contribute.html">Contribute</a>
 		</div>
 		<div style="width:100%;">
@@ -35,24 +34,17 @@ function reference(link) {
 			<h4>Community</h4><br>
 			<a href="https://scratch.mit.edu/discuss">Scratch Discuss</a><br>
 			<a href="https://scratch-wiki.info/">Scratch Wiki</a><br>
-			<a href="https://scratch.mit.edu/discuss/">Scratch Forum</a><br>
-			<a href="https://scratch.mit.edu/statistics/">Statistics on scratch</a><!--br>
+			<a href="https://scratch.mit.edu/discuss/">Scratch Forum</a><!--br>
 			<a href="https://scratch.mit.edu/studios/x/comments">Community Portal</a-->
 		</div>
-		
 		<div class="px-120 px-80" style="width:100%;">
 			<h4>Resources</h4><br>
 			<a href="https://scratch.mit.edu/download">Download Scratch</a><br>
-			<a href="https://scratch.mit.edu/ideas">Tutorials on Scratch</a><br>
+			<a href="https://scratch.mit.edu/ideas">Official Tutorials</a><br>
 			<a href="https://scratchstats.com">Scratchstats</a>
 		</div>
-		
 		<div style="width:100%;">
-			<button class="redBtn screen-120"><a href="https://github.com/ScratchTutorials/ScratchTutorials/issues/new"> 
-				<center> ⚠️ Report an Error </center>
-			</button><br>
-			<div id="wcb" class="carbonbadge"></div>
-			<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+			<button class="redBtn screen-120"><a href="https://github.com/ScratchTutorials/ScratchTutorials/issues/new">⚠️ Report an Error</button><br>
 		</div>
 	</div>`
 	document.getElementById("footer").innerHTML = footerContent;
