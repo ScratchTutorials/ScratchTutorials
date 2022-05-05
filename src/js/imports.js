@@ -35,6 +35,7 @@ function reference(link) {
 			<h4>Community</h4><br>
 			<a href="https://scratch.mit.edu/discuss">Scratch Discuss</a><br>
 			<a href="https://scratch-wiki.info/">Scratch Wiki</a><!--br>
+			<a href="https://scratch.mit.edu/discuss/">Scratch Forum</a><br>
 			<a href="https://scratch.mit.edu/studios/x/comments">Community Portal</a-->
 		</div>
 		
