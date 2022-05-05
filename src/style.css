@@ -73,15 +73,15 @@ table {
 	border: none;
 	outline: none;
 }
-table > td:nth-child(odd) {
+table > tr:nth-child(odd) {
 	background-color: inherit;
 	color: inherit;
 }
-table > td:nth-child(even) {
+table > tr:nth-child(even) {
 	background-color: var(--ui-bg-3);
 	color: inherit;
 }
-td > tr {
+tr > td {
 	background-color: inherit;
 	color: inherit;
 	padding: 9px;
