@@ -139,12 +139,12 @@ div.profiles > div.body > div > img {
 /********* /BOX *********/
 /********* TYPOGRAPHY *********/
 .warning {
-	color: #f39c12; 
+	color: #F39C12; 
 	font-weight: bold;
 }
 .type-info {
 	color: inherit;
-	/* background-color */
+	background-color: #4F96FE5A;
 	border-left: solid 8px var(--ui-primary);
 	padding: 9px;
 	margin: 9px 0;
