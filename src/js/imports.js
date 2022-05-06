@@ -3,16 +3,16 @@ function reference(link) {
 	referenceLink = link;
 	const headerContent = `
 	<meta name="theme-color" content="#4f96fe">
-	<img class="px-120 px-80 px-60" src="${link}favicon.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
-	<a class="px-120" style="float:left;" class="px-120 px-60"  href="${link}tutorials/propose.html">Propose Tutorial</a>
-	<!--img src="${link}assets/tutorials-add.svg" onClick="window.location.href='${link}tutorials/propose.html'"-->
-	<a class="px-120 px-80" style="float:left;" href="${link}tutorials/index.html">Tutorials</a>
-	<!--img src="${link}assets/tutorials.svg" onClick="window.location.href='${link}tutorials'"-->
-	<a class="px-120" style="float:left;" href="${link}about.html">About</a>
-	<button class="px-120" style="float:right;">
+	<img class="screen-120 screen-80 screen-60" src="${link}favicon.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
+	<a class="screen-120" style="float:left;" class="scree-120 screen-80"  href="${link}tutorials/propose.html">Propose Tutorial</a>
+	<img src="${link}assets/tutorials-add.svg" class="screen-60 screen-40" onClick="window.location.href='${link}tutorials/propose.html'">
+	<a class="screen-120 screen-80" style="float:left;" href="${link}tutorials/index.html">Tutorials</a>
+	<img src="${link}assets/tutorials.svg" class="screen-60 screen-40" onClick="window.location.href='${link}tutorials'">
+	<a class="screen-120" style="float:left;" href="${link}about.html">About</a>
+	<button class="screen-120" style="float:right;">
 		<a href="https://github.com/ScratchTutorials/ScratchTutorials/issues/new">Feedback</a>
 	</button>
-	<img class="px-120 px-80" onClick="changeTheme()" style="float:right;" src="${link}assets/theme.svg">`
+	<img onClick="changeTheme()" style="float:right;" src="${link}assets/theme.svg">`
 	document.getElementById("nav").innerHTML = headerContent;
 
 	const footerContent = `
