@@ -24,37 +24,25 @@
 	div.carrousel > div.body {
 		display: block;
 	}
+}
+@media only screen and (max-width: 600px) {
 	
-	@media only screen and (max-width: 600px) {
-		
-		.screen-80 {
-			display: none;
-		}
-		.screen-60 {
-			display: block;
-		}
-		
-		@media only screen and (max-width: 400px) {
-			
-			.screen-60 {
-				display: none;
-			}
-			.screen-40 {
-				display: none;
-			}
-			:root {
-				font-size: 12px;
-			}
-			
-			@media only screen and (max-width: 200px) {
-				* {
-					display: none;
-				}
-				#screen-error-width-small {
-					display: block;
-					content: "Error: The screen width is too small. Please open the website with a larger screen";
-				}
-			}
-		}
+	.screen-80 {
+		display: none;
+	}
+	.screen-60 {
+		display: block;
+	}
+}	
+@media only screen and (max-width: 400px) {
+	
+	.screen-60 {
+		display: none;
+	}
+	.screen-40 {
+		display: none;
+	}
+	:root {
+		font-size: 12px;
 	}
 }
