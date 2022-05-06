@@ -3,7 +3,7 @@ function reference(link) {
 	referenceLink = link;
 	const headerContent = `
     <img id="navbarFavicon" src="${link}favicon.png" onClick='window.location.href="${link}index.html";' id="favicon" style="float:left">
-    <a id="navbarProposeLink" style="float:left" ref="${link}tutorials/propose.html">Propose Tutorial</a>
+    <a id="navbarProposeLink" style="float:left" href="${link}tutorials/propose.html">Propose Tutorial</a>
     <img id="navbarProposeIcon" src="${link}assets/tutorials-add.svg" onClick="window.location.href='${link}tutorials/propose.html'">
     <a id="navbarTutorialsLink" style="float:left;" href="${link}tutorials/index.html">Tutorials</a>
     <img id="navbarTutorialsIcon" src="${link}assets/tutorials.svg" onClick="window.location.href='${link}tutorials'">
