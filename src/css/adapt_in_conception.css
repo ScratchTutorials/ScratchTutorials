@@ -5,7 +5,7 @@
  	// screen-60 : 401px => 600px
 	// screen-40 : 400px and less
 **************************************/
-
+<!--
 .screen-120 {
 	display: block;
 }
@@ -46,3 +46,4 @@
 		font-size: 12px;
 	}
 }
+-->
