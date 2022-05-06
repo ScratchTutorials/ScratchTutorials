@@ -1,49 +1,15 @@
-/**************************************
-	// MOBILE DEVICES ADAPTATION
-	// screen-120 : 800px and more
-	// screen-80 : 601px => 800px
- 	// screen-60 : 401px => 600px
-	// screen-40 : 400px and less
-**************************************/
-
-.screen-120 {
-	display: block;
-}
-.screen-80, .screen-60, .screen-40 {
-	display: none;
-}
-
-@media only screen and (max-width: 800px) {
-	
-	.screen-120 {
-		display: none;
-	}
-	.screen-80 {
-		display: block;
-	}
-	div.carrousel > div.body {
-		display: block;
-	}
-}
 @media only screen and (max-width: 600px) {
-	
-	.screen-80 {
+	#navbarProposeLink,
+	#navbarTutorialsLink {
 		display: none;
 	}
-	.screen-60 {
+	#navbarProposeIcon,
+	#navbarTutorialsIcon {
 		display: block;
 	}
-}	
+}
 @media only screen and (max-width: 400px) {
-	
-	.screen-60 {
+	#navbarFeedbackButton {
 		display: none;
-	}
-	.screen-40 {
-		display: none;
-	}
-	:root {
-		font-size: 12px;
 	}
 }
-
