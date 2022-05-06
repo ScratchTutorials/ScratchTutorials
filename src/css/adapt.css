@@ -2,6 +2,11 @@
 #navbarTutorialsIcon {
 	display: none;
 }
+@media only screen and (max-width: 800px) {
+	div.box > div.body {
+		display: block:
+	}
+}
 @media only screen and (max-width: 600px) {
 	#navbarProposeLink,
 	#navbarTutorialsLink {
