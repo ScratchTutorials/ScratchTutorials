@@ -47,7 +47,8 @@ function reference(link) {
 		</div>
 	</div>`
 	document.getElementById("footer").innerHTML = footerContent;
-	var recentTutorials = localStorage.getItem("st-recent");
+	
+	/* var recentTutorials = localStorage.getItem("st-recent");
 	var i = 0;
 	for (i == 0, i < recentTutorials.length, i++) {
 		var section = document.getElementById("recent");
@@ -64,5 +65,5 @@ function reference(link) {
 		const addition = `
 		<div></div>`
 		section += addition;
-	}
+	} */
 }
