@@ -25,7 +25,7 @@ function reference(link) {
 		</div>
 		<div style="width:100%;">
 			<h4>Contact Us</h4><br>
-			<a href="mailto:neoxwalker@users.noreply.github.com">By Email</a><br>
+			<a href="mailto:scratchtutorials@users.noreply.github.com">By Email</a><br>
 			<a href="https://scratch.mit.edu/discuss/topic/601563/">On Scratch</a><br>
 			<a href="https://github.com/ScratchTutorials/ScratchTutorials/discussions">On Github</a>
 		</div>
@@ -47,4 +47,22 @@ function reference(link) {
 		</div>
 	</div>`
 	document.getElementById("footer").innerHTML = footerContent;
+	var recentTutorials = localStorage.getItem("st-recent");
+	var i = 0;
+	for (i == 0, i < recentTutorials.length, i++) {
+		var section = document.getElementById("recent");
+		const addition = `
+		<div>
+			<img src="${link}assets/tutos/${recentTutorials[i].title}/cover.svg"><br>
+			<a class="tuto-title" href="${link}tutorials/${recentTutorials[i].title}">${recentTutorials[i].title}</a><br>
+			<span class="tuto-author">By <a href="https://scratch.mit.edu/users/${recentTutorials[i].author}">${recentTutorials[i].author}</a></span>
+		</div>`
+		section += addition;
+	}
+	for (i == 0, i < 4, i++) {
+		var section = document.getElementById("recent");
+		const addition = `
+		<div></div>`
+		section += addition;
+	}
 }
