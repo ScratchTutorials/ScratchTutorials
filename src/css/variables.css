@@ -9,6 +9,7 @@ html {
 	--ui-bg: #FAFAFA;
 	--ui-bg-2: #EAEAEA;
 	--ui-bg-3: #F4F4F4;
+	--ui-border: #d5d5d5
 }
 html.darkMode {
 	--ui-primary: #3576CA;
@@ -21,4 +22,5 @@ html.darkMode {
 	--ui-bg: #000000;
 	--ui-bg-2: #3F3F3F;
 	--ui-bg-3: #353535;
+	--ui-border: #5e5e5e
 }
