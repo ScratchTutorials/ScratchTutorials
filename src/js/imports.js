@@ -9,7 +9,7 @@ function reference(link) {
     <img id="navbarTutorialsIcon" src="${link}assets/tutorials.svg" onClick="window.location.href='${link}tutorials'">
     <a id="navbarAboutLink" style="float:left;" href="${link}about.html">About</a>
     <button id="navbarFeedbackButton" style="float:right;">
-	<meta name="theme-color" content="var(--ui-primary)">
+	<meta name="theme-color" content="#4f96fe">
         <a href="https://github.com/ScratchTutorials/ScratchTutorials/issues/new">Feedback</a>
     </button>
     <img onClick="changeTheme()" style="float:right;" src="${link}assets/theme.svg">`
