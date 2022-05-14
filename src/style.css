@@ -206,7 +206,7 @@ div.profiles > div.body > div > img {
 	color: var(--ui-text-linked);
 	text-decoration: none;
 }
-#footer button.redBtn {
+button.redBtn {
 	height: 32px;
 	width: 160px;
 	border: none;
@@ -216,7 +216,7 @@ div.profiles > div.body > div > img {
 	font-size: 16px;
 	font-weight: bold;
 }
-#footer button.redBtn a {
+button.redBtn a {
 	color: #FFFFFF;
 	text-decoration: none;
 }
