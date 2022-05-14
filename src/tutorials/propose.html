@@ -9,44 +9,6 @@
 		<link rel="stylesheet" href="../style.css" type="text/css">
 		<link rel="stylesheet" href="../css/adapt.css" type="text/css">
 		<meta http-equiv="refresh" content="https://scratch.mit.edu/discuss/topic/601563/">
-		<style>
-			label {
-				font-weight: bold;
-			}
-			input {
-				height: 32px;
-				width: 98%;
-				border-radius: 8px;
-				background-color: var(--ui-bg-2);
-				color: var(--ui-text);
-				border: 1px;
-				border-top-color: #808080;
-					border-top-width: 1px;
-					border-right-color: #808080;
-					border-right-width: 1px;
-					border-bottom-color: #808080;
-					border-bottom-width: 1px;
-					border-left-color: #808080;
-					border-left-width: 1px;
-				outline: none;
-				padding: 0 1%;
-			}
-			input[type='submit'] {
-				background-color: var(--ui-primary);
-				color: #FFFFFF;
-				width: 96px;
-			}
-			textarea {
-				min-height: 120px;
-				width: 98%;
-				border-radius: 8px;
-				background-color: var(--ui-bg-2);
-				color: var(--ui-text);
-				border: none;
-				outline: none;
-				padding: 4px 1%;
-			}
-		</style>
 	</head>
 	<body>
 		<nav id="nav" class="navbar">
@@ -55,39 +17,24 @@
 			<h1>New Tutorial</h1>
 		</header>
 		<div id="content">
-			<!--div class="box">
-				<div class="head">
-					<h3>Submit New Tutorial</h3>
-				</div>
+			<div style="text-align: center">
+				<img src="assets/conception.png" style="height:237px; border-radius: 4px"><br><br>
+				<h1 class="warning">This page is currently unavailable</h1><br>
+				<p style="font-weight: bold;">This page is under development and we are doing our best to complete it as soon as possible.</p>
+				<p>You can go back to the <a href="/">homepage</a>.</p>
+			</div><br>
+			<div class="box">
+				<div class="head"><h3>What to do in this kind of case?</h3></div>
 				<div class="body">
-					<p>If you want to submit a new tutorial, first fill in the following form, then click on Done and go here.</p><br><br><br>
-					<label for="title">Choose a title for the tutorial</label><br><br>
-					<input type="text" name="title" id="title" required></input><br><br><br>
-					<label for="description">Describe your new idea</label><br><br>
-					<textarea name="description" id="description" required></textarea><br><br><br>
-					<label for="credits">Please tell if some people helped you (separate with coma's)</label><br><br>
-					<input type="text" name="credits" id="credits"></input><br><br><br>
-					<input type="submit" onClick="copyForm();" value="Done"></input>
+					<h2>Report the error</h2>
+					<p>The first thing to do when you meet an error is contacting the staff. You can do so by clicking the <button class="redBtn"><a href="#">Report an Error</a></button> button in the footer, or by contacting us with the links, still in the footer.</p>
 				</div>
-			</div-->
+			</div>
+			<span>Didn’t got redirected? Please go <a href="https://scratch.mit.edu/topic/601563">here</a>.</span>
 		</div>
 		<footer id="footer">
 		</footer>	
-		<script src="../script.js">
-			function copyForm() {
-				var copyTitle = document.getElementById("title");
-				var copyDesc = document.getElementById("description");
-				var copyCredits = document.getElementById("credits");
-				
-				var copyText = copyTitle + copyDesc + copyCredits;
-				copyText.select(); 
-				copyText.setSelectionRange(0, 99999); 
-				
-				navigator.clipboard.writeText(copyText.value);
-				
-				alert("Copied the text: " + copyText.value);
-			}
-		</script>
+		<script src="../script.js"></script>
 		<script src="../js/theme.js" onLoad='setTheme(theme)'></script>
 		<script src="../js/imports.js" onload='reference("../")'></script>
 	</body>
