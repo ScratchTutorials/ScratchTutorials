@@ -44,7 +44,7 @@ function reference(link) {
 			<a href="https://scratchstats.com">Scratchstats</a>
 		</div>
 		<div style="width:100%;">
-			<button class="redBtn screen-120"><a href="https://github.com/ScratchTutorials/ScratchTutorials/issues/new">⚠️ Report an Error</button><br>
+			<button class="redBtn screen-120"><a href="https://github.com/ScratchTutorials/ScratchTutorials/issues/new">Report an Error</button><br>
 		</div>
 	</div>`
 	document.getElementById("footer").innerHTML = footerContent;
