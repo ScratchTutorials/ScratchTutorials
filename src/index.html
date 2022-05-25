@@ -7,7 +7,6 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="style.css" type="text/css">
-		<link rel="stylesheet" href="css/adapt.css" type="text/css">
 	</head>
 	<body>
 		<nav id="nav" class="navbar"></nav>
@@ -66,7 +65,12 @@
 			</div>
 		</div>
 		<footer id="footer">
-		</footer>	
+		</footer>
+		<script type="text/javascript">
+			if (window.location.pathname == "/"){} else {
+				window.location.pathnale = "/errors/404.html";
+			}
+		</script>
 		<script src="script.js"></script>
 		<script src="js/theme.js" onLoad='setTheme(theme)'></script>
 		<script src="js/imports.js" onload='reference("./")'></script>
