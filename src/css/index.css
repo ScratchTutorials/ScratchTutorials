@@ -188,12 +188,18 @@ div.profiles > div.body > div > img {
 	padding: 9px;
 	margin: 9px 0;
 }
+.type-wrning > span::before {
+	content: "⚠";
+}
 .type-info {
 	color: inherit;
 	background-color: #4F96FE5A;
 	border-left: solid 8px var(--ui-primary);
 	padding: 9px;
 	margin: 9px 0;
+}
+.type-info > span::before {
+	content: "ℹ";
 }
 /********* /TYPOGRAPHY *********/
 /* /PAGE */
