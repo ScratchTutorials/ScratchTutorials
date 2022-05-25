@@ -188,7 +188,7 @@ div.profiles > div.body > div > img {
 	padding: 9px;
 	margin: 9px 0;
 }
-.type-wrning > span::before {
+.type-warning > span::before {
 	content: "⚠️ ";
 }
 .type-info {
