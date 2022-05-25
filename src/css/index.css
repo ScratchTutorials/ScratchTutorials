@@ -189,7 +189,7 @@ div.profiles > div.body > div > img {
 	margin: 9px 0;
 }
 .type-wrning > span::before {
-	content: "⚠";
+	content: "⚠️ ";
 }
 .type-info {
 	color: inherit;
@@ -199,7 +199,7 @@ div.profiles > div.body > div > img {
 	margin: 9px 0;
 }
 .type-info > span::before {
-	content: "ℹ";
+	content: "ℹ ";
 }
 /********* /TYPOGRAPHY *********/
 /* /PAGE */
