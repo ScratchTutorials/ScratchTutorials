@@ -1,0 +1,364 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Scratch Tutorials - Scratch Emojis</title>
+		<link rel="favicon" href="../../favicon.png" type="img/png">
+		<meta name="theme-color" content="var(--ui-primary)">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../../style.css" type="text/css">
+		<link rel="stylesheet" href="../../css/adapt.css" type="text/css">
+	</head>
+	<body>
+		<nav id="nav" class="navbar">
+		</nav>
+		<header id="header">
+			<h1>Scratch Emojis and smileys</h1>
+			<h4>By <a href="https://scratch.mit.edu/users/scratch-hv">scratch-hv</a></h4>
+		</header>
+		<!-- _______________________-->
+		<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <style>
+          
+        [data-tab-info] {
+            display: none;
+        }
+          
+        .active[data-tab-info] {
+            display: block;
+        }
+          
+        .tab-content {
+          background-color: var(--ui-bg);
+        }
+          
+        .tabs {
+            font-size: 16px;
+            color: #000000;
+            display: flex;
+            margin: 0;
+            font-family: sans-serif;
+            background-color: var(--ui-bg);
+        }
+          
+        .tabs span {
+            background: var(--ui-primary);
+            padding: 10px;
+            border: 5px solid var(--ui-bg);
+            color: white;
+            border-radius: 15px;
+        }
+          
+        .tabs span:hover {
+            background: #4586E6;
+            cursor: pointer;
+            color: white;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+  
+<body>
+
+    <div class="tabs">
+    
+&nbsp; <span data-tab-value="#tab_1">🇬🇧 English</span>
+       <span data-tab-value="#tab_2">🇲🇫 French</span>
+    </div>
+  <hr style="color:var(--ui-border)">
+    <div class="tab-content">
+        <div class="tabs__tab active" id="tab_1" data-tab-info>
+
+                <!-- DÉBUT DU CONTENU DU 1er ONGLET -->
+
+  <div id="content">
+			<h2>Post messages with scratch emojis.</h2>
+			<p><img alt="" src="https://oeildelynx.top7box.com/data/medias/blocs/scratch/smiley.png" style="height:76px; width:697px"></p>
+			<p>In fact, there are sequences of characters which, when posting the message, turn into a smiley.</p>
+			<h3>In the comments</h3><br>
+			<p>List of smiley-codes:</p>
+			<table style="border-collapse:collapse; border-style:groove; height:50px; width:20%" cellspacing="0" border="3">
+				<tbody>
+                  
+					<tr>
+						<td><strong>Code:</strong></td>
+						<td><strong>Result:</strong></td>
+					</tr>
+					<tr>
+						<td> _meow_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/6/60/Emoji-Meow.png" style="height:17px; width:23px"></td>
+					</tr>
+					<tr>
+						<td> _camera_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/9/9f/Emoji-Camera.png" style="height:17px; width:26px"></td>
+					</tr>
+					<tr>
+						<td> _:)_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/5/54/Emoji-Cat.png/20px-Emoji-Cat.png"></td>
+					</tr>
+					<tr>
+						<td> _:D_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/f/f8/Emoji-Aww-Cat.png/20px-Emoji-Aww-Cat.png"></td>
+					</tr>
+					<tr>
+						<td> _;P_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/e/e0/Emoji-Wink-Cat.png/20px-Emoji-Wink-Cat.png"></td>
+					</tr>
+					<tr>
+						<td> _:'P_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/4/48/Emoji-Lol-Cat.png/20px-Emoji-Lol-Cat.png"></td>
+					</tr>
+					<tr>
+						<td> _&lt;3_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/8/86/Emoji-Love-It-Cat.png/20px-Emoji-Love-It-Cat.png"></td>
+					</tr>
+					<tr>
+						<td> _**_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/6/68/Emoji-Fav-It-Cat.png/20px-Emoji-Fav-It-Cat.png" style="height:20px; width:20px"></td>
+					</tr>
+					<tr>
+						<td> _B)_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/4/49/Emoji-Cool-Cat.png/20px-Emoji-Cool-Cat.png"></td>
+					</tr>
+					<tr>
+						<td> _:P_</td>
+						<td><img src="https://fr.scratch-wiki.info/w/images/thumb/a/aa/Emoji-Tongue-Out-Cat.png/20px-Emoji-Tongue-Out-Cat.png"></td>
+					</tr>
+					<tr>
+						<td> _:D&lt;_</td>
+						<td><img src="https://fr.scratch-wiki.info/w/images/thumb/5/5a/Emoji-Pizza-Cat.png/20px-Emoji-Pizza-Cat.png"></td>
+					</tr>
+					<tr>
+						<td> _:))_</td>
+						<td><img src="https://fr.scratch-wiki.info/w/images/thumb/d/db/Emoji-Rainbow-Cat.png/20px-Emoji-Rainbow-Cat.png"></td>
+					</tr>
+                   
+				</tbody>
+			</table>
+			<div class="type-info"> You can't use it in the forum.</div><br><hr><br>
+			<h3>In the forum</h3>
+			<p>List of smiley-codes:</p>
+			<table style="border-collapse:collapse; border-style:groove; height:218px; width:42.0533%" cellspacing="0" border="3">
+				<tbody>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%"><u><strong>Code:</strong></u></td>
+						<td style="height:18px; text-align:center; width:23.9679%"><u><strong>Result:</strong></u></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:)</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/a/aa/Smiley-Smile.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:|</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/3/3b/Smiley-Neutral.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:(</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/3/34/Smiley-Sad.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:D</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/d/d2/Smiley-Big_Smile.png"></td>
+					</tr>
+					<tr>
+						<td style="height:19px; text-align:center; width:25.5605%">:o</td>
+						<td style="height:19px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/4/41/Smiley-Yikes.png"></td>
+					</tr>
+					<tr>
+						<td style="height:19px; text-align:center; width:25.5605%">;)</td>
+						<td style="height:19px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/6/67/Smiley-Wink.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:/</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/1/11/Smiley-Hmm.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:P</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/0/0d/Smiley-Tongue.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:lol:</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/7/7b/Smiley-Lol.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:mad:</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/d/da/Smiley-Mad.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:rolleyes:</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/9/91/Smiley-Roll.png"></td>
+					</tr>
+					<tr>
+						<td style="text-align:center; width:25.5605%">:cool:</td>
+						<td style="text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/7/7e/Smiley-Cool.png"></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="type-info">For more informations, you can click <a href="https://scratch.mit.edu/projects/222536271/">here</a>.</div>
+		</div>
+
+                <!--  FIN DU CONTENU DU 1er ONGLET -->
+        </div>
+        <div class="tabs__tab" id="tab_2" data-tab-info>
+
+                <!-- DÉBUT DU CONTENU DU 2nd ONGLET -->
+  
+  <div id="content">
+			<h2>Poster des messages avec des emojis scratch.</h2>
+			<p><img alt="" src="https://oeildelynx.top7box.com/data/medias/blocs/scratch/smiley.png" style="height:76px; width:697px"></p>
+			<p>En effet, il existe des séquences de caractères qui, lors de la publication du message, se transforment en smiley.</p>
+			<h3>Dans les commentaires</h3><br>
+			<p>Liste des smiley-codes:</p>
+			<table style="border-collapse:collapse; border-style:groove; height:50px; width:20%" cellspacing="0" border="3">
+				<tbody>
+                  
+					<tr>
+						<td><strong>Code:</strong></td>
+						<td><strong>Resultat:</strong></td>
+					</tr>
+					<tr>
+						<td>_meow_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/6/60/Emoji-Meow.png" style="height:17px; width:23px"></td>
+					</tr>
+					<tr>
+						<td>_camera_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/9/9f/Emoji-Camera.png" style="height:17px; width:26px"></td>
+					</tr>
+					<tr>
+						<td>_:)_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/5/54/Emoji-Cat.png/20px-Emoji-Cat.png"></td>
+					</tr>
+					<tr>
+						<td>_:D_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/f/f8/Emoji-Aww-Cat.png/20px-Emoji-Aww-Cat.png"></td>
+					</tr>
+					<tr>
+						<td>_;P_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/e/e0/Emoji-Wink-Cat.png/20px-Emoji-Wink-Cat.png"></td>
+					</tr>
+					<tr>
+						<td>_:'P_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/4/48/Emoji-Lol-Cat.png/20px-Emoji-Lol-Cat.png"></td>
+					</tr>
+					<tr>
+						<td>_&lt;3_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/8/86/Emoji-Love-It-Cat.png/20px-Emoji-Love-It-Cat.png"></td>
+					</tr>
+					<tr>
+						<td>_**_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/6/68/Emoji-Fav-It-Cat.png/20px-Emoji-Fav-It-Cat.png" style="height:20px; width:20px"></td>
+					</tr>
+					<tr>
+						<td>_B)_</td>
+						<td><img alt="" src="https://fr.scratch-wiki.info/w/images/thumb/4/49/Emoji-Cool-Cat.png/20px-Emoji-Cool-Cat.png"></td>
+					</tr>
+					<tr>
+						<td>_:P_</td>
+						<td><img src="https://fr.scratch-wiki.info/w/images/thumb/a/aa/Emoji-Tongue-Out-Cat.png/20px-Emoji-Tongue-Out-Cat.png"></td>
+					</tr>
+					<tr>
+						<td>_:D&lt;_</td>
+						<td><img src="https://fr.scratch-wiki.info/w/images/thumb/5/5a/Emoji-Pizza-Cat.png/20px-Emoji-Pizza-Cat.png"></td>
+					</tr>
+					<tr>
+						<td>_:))_</td>
+						<td><img src="https://fr.scratch-wiki.info/w/images/thumb/d/db/Emoji-Rainbow-Cat.png/20px-Emoji-Rainbow-Cat.png"></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="type-info"> Vous ne pouvez pas les utiliser dans le forum.</div><br><hr><br>
+			<h3>Dans le forum</h3>
+			<p>Liste des smiley-codes:</p>
+			<table style="border-collapse:collapse; border-style:groove; height:218px; width:42.0533%" cellspacing="0" border="3">
+				<tbody>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%"><u><strong>Code:</strong></u></td>
+						<td style="height:18px; text-align:center; width:23.9679%"><u><strong>Resultat:</strong></u></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:)</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/a/aa/Smiley-Smile.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:|</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/3/3b/Smiley-Neutral.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:(</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/3/34/Smiley-Sad.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:D</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/d/d2/Smiley-Big_Smile.png"></td>
+					</tr>
+					<tr>
+						<td style="height:19px; text-align:center; width:25.5605%">:o</td>
+						<td style="height:19px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/4/41/Smiley-Yikes.png"></td>
+					</tr>
+					<tr>
+						<td style="height:19px; text-align:center; width:25.5605%">;)</td>
+						<td style="height:19px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/6/67/Smiley-Wink.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:/</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/1/11/Smiley-Hmm.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:P</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/0/0d/Smiley-Tongue.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:lol:</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/7/7b/Smiley-Lol.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:mad:</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/d/da/Smiley-Mad.png"></td>
+					</tr>
+					<tr>
+						<td style="height:18px; text-align:center; width:25.5605%">:rolleyes:</td>
+						<td style="height:18px; text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/9/91/Smiley-Roll.png"></td>
+					</tr>
+					<tr>
+						<td style="text-align:center; width:25.5605%">:cool:</td>
+						<td style="text-align:center; width:23.9679%"><img src="https://fr.scratch-wiki.info/w/images/7/7e/Smiley-Cool.png"></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="type-info">Pour plus d'informatins, cliquez <a href="https://scratch.mit.edu/projects/222536271/">ici</a>.</div>
+		</div>
+
+
+                <!--  FIN DU CONTENU DU 2nd ONGLET -->
+  
+        </div>
+    </div>
+    <script type="text/javascript">
+        const tabs = document.querySelectorAll('[data-tab-value]')
+        const tabInfos = document.querySelectorAll('[data-tab-info]')
+  
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = document
+                    .querySelector(tab.dataset.tabValue);
+  
+                tabInfos.forEach(tabInfo => {
+                    tabInfo.classList.remove('active')
+                })
+                target.classList.add('active');
+            })
+        })
+    </script>
+</body>
+  
+</html>
+		<!-- _______________________-->
+		<footer id="footer">
+		</footer>	
+		<script src="../../script.js"></script>
+		<script src="../../js/theme.js" onLoad='setTheme(theme)'></script>
+		<script src="../../js/imports.js" onload='reference("../../")'></script>
+	</body>
+</html>
