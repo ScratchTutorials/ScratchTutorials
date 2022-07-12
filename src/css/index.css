@@ -229,5 +229,9 @@ button.redBtn a {
 	color: #FFFFFF !important;
 	text-decoration: none;
 }
+
+button.redBtn > a::before {
+	content: "⚠️ ";
+	
 /* /FOOTER */
 
