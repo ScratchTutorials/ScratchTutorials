@@ -224,6 +224,7 @@ button.redBtn {
 	color: #FFFFFF !important;
 	font-size: 16px;
 	font-weight: bold;
+	transition-duration: 0.1s;
 }
 
 button.redBtn a {
@@ -237,6 +238,7 @@ button.redBtn > a::before {
 
 button.redBtn:hover {
 	background-color: rgb(255, 81, 111);
+	transition-duration: 0.1s;
 }
 /* /FOOTER */
 
