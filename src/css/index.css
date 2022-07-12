@@ -233,5 +233,8 @@ button.redBtn a {
 button.redBtn > a::before {
 	content: "⚠️ ";
 	
+button.redBtn :hover {
+	background-color: rgb(255, 81, 111);
+	}
 /* /FOOTER */
 
