@@ -225,6 +225,7 @@ button.redBtn {
 	font-size: 16px;
 	font-weight: bold;
 }
+
 button.redBtn a {
 	color: #FFFFFF !important;
 	text-decoration: none;
@@ -232,9 +233,10 @@ button.redBtn a {
 
 button.redBtn > a::before {
 	content: "⚠️ ";
-	
-button.redBtn :hover {
+}
+
+button.redBtn:hover {
 	background-color: rgb(255, 81, 111);
-	}
+}
 /* /FOOTER */
 
