@@ -35,6 +35,9 @@
 }
 #content * {
 	transition-duration: 0.1s;
+	
+::selection {
+  background-color: rgba(77,151,255,.25);
 }
 /********* ITEMS *********/
 img {
