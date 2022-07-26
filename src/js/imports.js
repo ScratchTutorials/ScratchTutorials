@@ -41,7 +41,8 @@ function reference(link) {
 			<h4>Resources</h4><br>
 			<a href="https://scratch.mit.edu/download">Download Scratch</a><br>
 			<a href="https://scratch.mit.edu/ideas">Official Tutorials</a><br>
-			<a href="https://scratchstats.com">Scratchstats</a>
+			<a href="https://scratchstats.com">Scratchstats</a><br>
+			<a href="https://tuto-scratch.pages.dev/tools">Tools</a>
 		</div>
 		<div style="width:100%;">
 			<button class="redBtn screen-120"><a href="https://github.com/ScratchTutorials/ScratchTutorials/issues/new">Report an Error</button><br>
