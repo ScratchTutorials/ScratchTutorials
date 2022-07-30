@@ -1,0 +1,102 @@
+<style type="text/css">
+  @import url(form-style.css);
+</style>
+
+<form style="font-family: sans-serif; color:#484848; font-weight: normal;" method="post" action="envoi.php">
+<div width="800px" class="form">
+<label>What's the name of your tutorial ?</label><br><br>
+<input type="text" style="" name="name">
+<br><br><br>
+<label>What's your pseudo on scratch ?</label><br><br>
+<input type="text" style="" name="name">
+
+<br><br><br><br>
+<label>Key words :</label><br><br>
+
+<!---------->
+<div class="checkbox">
+
+<table style="border-collapse: collapse; width: 100%; height: 72px;" border="0">
+<tbody>
+<tr style="height: 18px;">
+<td style="width: 50%; height: 18px;">
+
+<input type="checkbox" id="turbowarp" name="turbowarp" </td> 
+<label for="turbowarp">Turbowarp</label>
+
+<td style="width: 50%; height: 18px;">
+<input type="checkbox" id="game" name="game"</td>
+<label for="game">Video Game</label>
+
+</tr>
+<tr style="height: 18px;">
+<td style="width: 50%; height: 18px;">
+
+<input type="checkbox" id="cloud" name="cloud"</td>
+<label for="cloud">Cloud</label>
+
+</td>
+
+<td style="width: 50%; height: 18px;">
+
+<input type="checkbox" id="extention" name="extention"</td>
+<label for="extention">Extention</label>
+
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 50%; height: 18px;">
+
+<input type="checkbox" id="hack" name="hack"</td>
+<label for="hack">Hacking</label>
+
+</td>
+<td style="width: 50%; height: 18px;">
+
+<input type="checkbox" id="website" name="website"</td>
+<label for="website">Scratch Website</label></td>
+
+</tr>
+<tr style="height: 18px;">
+<td style="width: 50%; height: 18px;">
+
+<input type="checkbox" id="s-addons" name="s-addons"</td>
+<label for="s-addons">Scratch Addons</label>
+
+</td>
+
+<td style="width: 50%; height: 18px;">
+
+<label for="other">Other :</label>
+<input type="text" id="other" name="other" style="width: 75%">
+</td>
+
+</tr>
+</tbody>
+</table>
+</div>
+
+<!---------->
+
+<br><br><br>
+<label>Can you explain what is your idea ?</label><br><br>
+<textarea style="" name="idea" spellcheck="false"></textarea>
+<br><br>
+<hr>
+
+<details>
+<summary>Informations
+</summary>
+<p>
+It is not certain that your idea will be accepted. It can also be modified and/or improved. 
+<br>
+We will contact you by scratch if we like your project.
+</p>
+</details>
+
+<br><br>
+<input type="submit" value="Send your proposition" style="" onclick="submit();">
+<input type="reset" value="Reset">
+
+</div>
+</form>
